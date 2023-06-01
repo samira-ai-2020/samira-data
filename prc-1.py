@@ -1,3 +1,4 @@
+# گرفتن ورودی از کاربر
 text = input("Please Enter Text: ")
 char_count = {}   
 
