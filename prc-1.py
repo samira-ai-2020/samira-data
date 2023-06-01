@@ -2,6 +2,7 @@
 text = input("Please Enter Text: ")
 char_count = {}   
 
+# شمارش تعداد کاراکترها بدون در نظر گرفتن فاصله
 for char in text:
     if char != " ":
         if char not in char_count:
@@ -9,6 +10,7 @@ for char in text:
         else:
             char_count[char] += 1
 
+# چاپ جدول و چاپ کاراکترها و تعداد هرکدام از آنها
 print("+-------+----------+")
 print("| name  | frequency|")
 print("+-------+----------+")
